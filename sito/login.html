@@ -1,0 +1,64 @@
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Login/Registrati - Snowboard Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Snowboard Shop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">Chi siamo</a></li>
+                <li><a href="login.html">Login/Registrati</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="login">
+        <h2 style="text-align: center;">Registrati</h2>
+        <form action="register.php" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Numero di telefono:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="gender">Genere:</label>
+            <select id="gender" name="gender">
+                <option value="male">Maschio</option>
+                <option value="female">Femmina</option>
+                <option value="other">Altro</option>
+            </select>
+
+            <label for="birthdate">Data di nascita:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+
+            <label for="country">Paese:</label>
+            <input type="text" id="country" name="country" required>
+
+            <button type="submit">Registrati</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>@2024 Snowboard Shop. Tutti i diritti riservati. 
+            Per qualsiasi domanda o informazione, contattaci: salessandro.archetti@itis.pr.it. 
+            Seguici sui social: @snowboardshop. 
+            Scopri le nostre ultime offerte e promozioni sul nostro sito web. 
+            Iscriviti alla nostra newsletter per ricevere aggiornamenti esclusivi e sconti speciali. 
+            Privacy Policy | Termini e Condizioni"</p>
+        <div class="social-media">
+            <a href="https://www.instagram.com/ale.arco04/"><img src="images/insta.png" alt="Instagram" /></a>
+            <a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter" /></a>
+        </div>
+    </footer>
+</body>
+</html>
